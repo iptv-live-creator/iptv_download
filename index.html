@@ -9,19 +9,26 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container text-center mt-5">
         <h1>تحميل ملفات IPTV</h1>
         <p>قم بتنزيل أحدث ملفات IPTV بجودة عالية ومحدثة يوميًا</p>
 
-        <div class="card">
+        <div class="card p-4 shadow-sm">
             <img src="bein-logo.png" alt="beIN Sports" class="bein-logo">
-            <a id="download-btn" class="btn btn-lg mt-3">تنزيل</a>
+            <a id="download-btn" class="btn btn-primary btn-lg mt-3" href="#" download>تنزيل</a>
         </div>
     </div>
 
     <script src="config.js"></script>
     <script>
-        document.getElementById("download-btn").href = downloadLink;
+        document.addEventListener("DOMContentLoaded", function () {
+            const downloadBtn = document.getElementById("download-btn");
+            if (typeof downloadLink !== "undefined") {
+                downloadBtn.href = downloadLink;
+            } else {
+                console.error("Error: downloadLink is not defined in config.js");
+            }
+        });
     </script>
 
 </body>
