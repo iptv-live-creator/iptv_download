@@ -43,6 +43,12 @@ h1, h2 {
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }
+.bein-logo {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
 
 .btn-lg:hover {
     background: #218838;
