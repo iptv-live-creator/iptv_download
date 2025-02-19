@@ -1,1 +1,1 @@
-const downloadLink = "https://ouo.io/your-short-link";  // ضع الرابط المختصر هنا
+const downloadLink = "https://www.google.com/";  // ضع الرابط المختصر هنا
