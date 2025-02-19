@@ -1,1 +1,1 @@
-const downloadLink = "https://www.google.com/";  // ضع الرابط المختصر هنا
+const downloadLink = "https://url-cut.com/5c9qy";  // ضع الرابط المختصر هنا
